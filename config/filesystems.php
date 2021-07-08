@@ -53,6 +53,15 @@ return [
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
         ],
 
+        'backup' => [
+            'driver' => env('BACKUP_DRIVER'),
+            'host' => env('BACKUP_HOST'),
+            'username' => env('BACKUP_USERNAME'),
+            'password' => env('BACKUP_PASSWORD'),
+            'port' => env('BACKUP_PORT'),
+            'root' => env('BACKUP_ROOT'),
+        ],
+
     ],
 
     /*
